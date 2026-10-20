@@ -68,7 +68,7 @@
 | 항목 | 이 프로젝트의 정본 | 적용 상태 |
 | --- | --- | --- |
 | 요구사항 | [Codex 설치 작업 계약·현재 상태](docs/jobs/codex-install-state.md) | 로컬 작업 ID로 추적. 지정 Issue·PR·CI 없음 |
-| 검증 명령·실행 디렉터리 | [검증 가이드](docs/guides/verification.md) · `/home/kwh8121/projects/test` | 문서·설정·Git 검사와 새 세션 검증. 실제 결과는 작업 기록 참조 |
+| 검증 명령·실행 디렉터리 | [검증 가이드](docs/guides/verification.md) · `/home/kwh8121/projects/test` | 파일·설정·Git·문서 배치 검사 PASS. 새 세션 설정 진단 FAIL, 동작 검사 NOT RUN; 상세 내용은 작업 기록 참조 |
 | 배포·복구 절차 | [설치 가이드 7절](INSTALL_CODEX.md#7-완료-보고와-되돌리기)과 [실제 변경·백업 기록](docs/jobs/codex-install-state.md) | 앱 배포 N/A. 프로젝트 파일만 기록된 범위에서 복구 |
 
 - 버그는 재현 근거를 확보하고 가능한 경우 회귀 테스트를 추가한다. 기능은 핵심 성공·실패 경로를 검사한다.
